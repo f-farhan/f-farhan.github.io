@@ -10,6 +10,7 @@ institution: TU/e
 type: bsc
 code: 2IAB0
 subheading: Basics of data analytics with Python
+pdf: 
 comment: 
 ---
-dsdsd
+todo

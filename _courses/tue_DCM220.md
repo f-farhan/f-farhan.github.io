@@ -10,7 +10,7 @@ institution: TU/e
 type: msc
 code: DCM220
 subheading: Focus on multi-modal feedback for automotive
+pdf:
 comment:
 ---
 todo
-

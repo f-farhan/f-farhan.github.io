@@ -37,6 +37,8 @@ group_pub_by_year: true
 collections:
   courses:
     output: true
+  publications:
+    output: true
 
 include:
   - .htaccess
