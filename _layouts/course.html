@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<div id="course" class="col-sm-12">
+  {% if page.url %}<a href="{{ page.url }}" target="_blank">{% endif %} <strong>{{ page.name }}</strong> {% if page.name_url %}</a>{% endif %} ({{ page.institution }}, {{ page.year_start }}–{{ page.year_end }}) {% if page.type == 'bsc' %}<button class="btn-completed">BSc</button>{% endif %}{% if page.type == 'msc' %}<button class="btn-inprogress">MSc</button>{% endif %}{% if page.type == 'phd' %}<button class="btn-notstarted">PhD</button>{% endif %}{% if page.comment %} – {{ page.comment }}{% endif %}
+
+  <p>{{ page.content | markdownify }}</p>
+</div>
