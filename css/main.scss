@@ -152,6 +152,26 @@ firstp {
   padding-left: 20px;
 }
 
+/* First list in courses. Stupid hack to remove wrong
+   spacing of the list but it works. */
+/*#gridid .rowl1 ul:first-of-type {
+    list-style-position: inside;
+    overflow: hidden;
+}
+
+#gridid .rowl1 ul:first-of-type li {
+    list-style-type: none;
+    position: relative;
+}
+
+#gridid .rowl1 ul:first-of-type li::before {
+  content: '•';
+  position: absolute;
+  left: -13px;
+  top: -3px;
+  font-size: 19px;
+}*/
+
 .row ul {
   padding-left: 20px;
 }

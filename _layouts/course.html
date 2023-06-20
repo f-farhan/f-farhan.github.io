@@ -13,10 +13,12 @@ layout: gridlay
 
 <h1> {{ page.name }} </h1>
 <div class="rowl1">
-    <div style="float: left; max-width: 280px; margin: 5px">
+    <div style="float: left; max-width: 280px; margin-top: 16px; margin-right: 22px; margin-bottom: 5px; overflow: hidden">
         {% if page.type == 'bsc' %}<button class="btn-completed">BSc</button>{% endif %}{% if page.type == 'msc' %}<button class="btn-inprogress">MSc</button>{% endif %}{% if page.type == 'phd' %}<button class="btn-notstarted">PhD</button>{% endif %}
         {% if page.name_url %}<a href="{{ page.name_url }}" target="_blank"><button class="btn-code">Website</button></a>{% endif %}</br>
-        {{ page.year_start }}–{{ page.year_end }}
+        🏫 {{ page.institution }}</br>
+        📆 {{ page.year_start }}–{{ page.year_end }}</br>
+        👨‍🎓 {{ page.students }}
     </div>
 
     {% assign contentwords = page.content | number_of_words %}
@@ -24,7 +26,7 @@ layout: gridlay
       {{ page.content | markdownify }}
     {% endif %}
 
-    {% if page.pdf %}
+<!--     {% if page.pdf %}
       <object data="{{ pdffile }}#view=FitH" width="100%" height="700" type="application/pdf"></object>
-    {% endif %} 
+    {% endif %}  -->
 </div>
