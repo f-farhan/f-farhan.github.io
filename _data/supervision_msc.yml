@@ -1,3 +1,11 @@
+- name: Tom Bergman, Ariën Helder, Emir Kadrić, Yuanyuan Xu
+  name_url: 
+  project: Emergency vehicle assistant for level 3 automated vehicle
+  project_url: https://mobility-squad.com/esa
+  year: 2023
+  status: completed
+  comment: within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
 - name: Peihang Li
   name_url: https://www.linkedin.com/in/peihang-li-785a45227/
   project: Characterizing situational awareness of transport operators based on eye tracking
