@@ -19,7 +19,8 @@ permalink: /volunteering/
 
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/volunteering/rmi-berlin.jpg" class="img-responsive" style="float: left; border-radius: 5px; width: 280px;" />
-  <h4>Marie Curie Alumni Association (MCAA)</h4>
+
+#### Marie Curie Alumni Association (MCAA)
 
   To contribute back to the community that allowed me to conduct my PhD research, I became an active volunteer of [Marie Curie Alumni Association (MCAA)](https://www.mariecuriealumni.eu). In 2017, I organised a series of 20+ webinars on the topic of connecting the worlds of academia an industry ([playlist with webinars](https://www.youtube.com/watch?v=70cnOuJjHm8&list=PLVe2q_0uMP9SLqU684fZDJwMFHcH320QU)). I also took part in organisation of a number of sessions at the [General Assembly and Annual Conference](https://www.mariecuriealumni.eu/2021-conference-home) events of MCAA.
 
@@ -34,7 +35,7 @@ permalink: /volunteering/
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/volunteering/ema-board.jpg" class="img-responsive" style="float: left; border-radius: 5px; width: 280px;" />
 
-  <h4>Erasmus Mundus Association (EMA)</h4>
+#### Erasmus Mundus Association (EMA)
 
   I am volunteer of the [Erasmus Mundus Association (EMA)](https://www.em-a.eu), of which I was the Director of Research and Innovation (2019–2021). In 2021, I organised a workshop on the topic of research and academic exchange during the pandemic. I coordinated the development of research guidelines for young academics. In view of my active participation in the life of the association, in 2018, EMA awarded me with the Alumni award.
 
@@ -44,7 +45,8 @@ permalink: /volunteering/
 
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/volunteering/opendata-4tu.jpg" class="img-responsive" style="float: left; border-radius: 5px; width: 280px;" />
-  <h4>Open science</h4>
+
+#### Open science
 
   As an avid supporter of open science, since 2019, I have been a participant of [Open Cloud for Research Environments (OCRE)](https://www.ocre-project.eu). I was involved in the workshop to discuss the structure of [European Open Science Cloud (EOSC)](https://www.eosc.eu). I strongly believe that all anonymised output of all research must be accessibly by the public by default (after all, we are doing science for the people). I publish all my articles in open access. Whenever possible, I keep datasets to all of my publications in open access at the [4TU.ResearchData](https://data.4tu.nl/authors/Pavlo_Bazilinskyy/9126724) data repository. At TU/e, I am one of the of the leaders of [OSC/e](https://osceindhoven.github.io) (Open Science Community Eindhoven).
 
@@ -54,7 +56,8 @@ permalink: /volunteering/
 
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/ua/donations.jpg" class="img-responsive" style="float: left; border-radius: 5px; width: 280px;" />
-  <h4>Ukraine 🇺🇦</h4>
+
+#### Ukraine 🇺🇦
 
  Together with my friends in Poland, and Ukraine I raise money and buy supplies to give direct support to civilians who are now risking their lives to protect the liberty in Ukraine. It all started with us searching for components of bulletproof vests for medics and local defenders assembled by our volunteers in Kharkiv. [Read more and see how to donate](/ua).
 
