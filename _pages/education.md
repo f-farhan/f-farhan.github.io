@@ -57,7 +57,7 @@ permalink: /education/
 {% if site.data.supervision_msc %}
 <!-- Sort courses by year -->
 {% assign students = site.data.supervision_msc | sort: 'year' | reverse %}
-## Supervision of BSc students and student groups
+## Supervision of MSc students and student groups
 <div class="rowl1" style="padding-top: 10px;">
 
 {% for student in students %}
