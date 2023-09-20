@@ -1,0 +1,9 @@
+@article{bazilinskyy2015international,
+  title={An international crowdsourcing study into people's statements on fully automated driving},
+  author={Bazilinskyy, Pavlo and Kyriakidis, Miltos and De Winter, J. C. F.},
+  journal={Procedia Manufacturing},
+  volume={3},
+  pages={2534--2542},
+  year={2015},
+  publisher={Elsevier}
+}
