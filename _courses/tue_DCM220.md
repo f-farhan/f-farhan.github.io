@@ -11,7 +11,7 @@ type: msc
 students: 30+
 code: DCM220
 subheading: Focus on multi-modal feedback for automotive
-pdf: DCM220-studyguide
+pdf: tue_DCM220-studyguide
 comment:
 ---
 #### Introduction
@@ -36,4 +36,4 @@ One assignment will be published on Canvas one week before the first meeting. Yo
 #### Course schedule and deliverables
 In this course, students will learn several design principles and techniques for creating appropriate experiences of conversational designs. Students will also read literature and apply all the knowledge through practising with a design project. To empower students’ learning-by-doing practice, we integrate the user-centre-design and double-diamond process with the weekly topics and assignments. The overall program is presented in the following diagram, followed by the descriptions of the weekly teaching plan.
 
-<img src="{{ site.url }}{{ site.baseurl }}/courses/DCM220-schedule.jpg" class="img-responsive"/>
+<img src="{{ site.url }}{{ site.baseurl }}/courses/tue_DCM220-schedule.jpg" class="img-responsive"/>

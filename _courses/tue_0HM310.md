@@ -11,7 +11,7 @@ type: msc
 students: 60+
 code: 0HM310
 subheading: Exploration of relation between a car or truck, its human driver, and the dynamic environment
-pdf: 0HM310-studyguide
+pdf: tue_0HM310-studyguide
 comment: 
 ---
 #### Introduction

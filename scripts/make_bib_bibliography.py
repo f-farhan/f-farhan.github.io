@@ -31,10 +31,10 @@ if __name__ == '__main__':
     # concatenate bib files
     # directory with bib files
     dir_in = os.path.join(os.path.abspath(os.path.join(__file__, '../..')),
-                          'publications')
+                          '_publications')
     # output directory for the concatenated file
     dir_out = os.path.join(os.path.abspath(os.path.join(__file__, '../..')),
-                           'publications')
+                           '_publications')
     # concatenated file
     file_out = 'bazilinskyy.bib'
     concat_bib(dir_in, dir_out, file_out)

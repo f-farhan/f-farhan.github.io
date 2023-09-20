@@ -31,7 +31,6 @@ permalink: /publications/
   {% endif %}
 
   {% if publi.year %}{% else %}
-
   {% assign bibtest = false %}
   {% if publi.pdf %}
     {% assign bibfile = "/publications/" | append:  publi.pdf  | append: ".txt" %}
@@ -46,7 +45,7 @@ permalink: /publications/
   <ul class="flex-container">
   <li class="flex-item1">
     {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/publications/{{ publi.image }}" class="img-responsive"/>
     {% endif %}
   </li>
   <li class="flex-item2">
@@ -127,13 +126,13 @@ permalink: /publications/
 <ul class="flex-container">
 <li class="flex-item1">
   {% if publi.image %}
-     <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ publi.image }}" class="img-responsive"/>
+     <img src="{{ site.url }}{{ site.baseurl }}/publications/{{ publi.image }}" class="img-responsive"/>
   {% endif %}
 </li>
 <li class="flex-item2">
   {% if publi.pdf %}<a href="{{ publi.pdf }}" target="_blank">{% endif %} <strong>{{ publi.title }}</strong>{% if publi.pdf %}</a>{% endif %}<br />
   {{ publi.authors }}<br />
-  <em>{{ publi.display }}</em>{% if publi.year %}({{publi.year}}){% endif %}<br/>
+  <em>{{ publi.display }}</em>{% if publi.year %} ({{publi.year}}){% endif %}<br/>
   {% if publi.abstract %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}">ABSTRACT</a> {% endif %}
   {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}

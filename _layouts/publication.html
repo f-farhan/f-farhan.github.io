@@ -24,7 +24,7 @@ layout: gridlay
 <h1> {{ page.title }} </h1>
 <div class="rowl1">
     <div style="float: left">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ page.image }}" class="img-responsive" style="border-radius: 5px; width: 280px;" />
+      <img src="{{ site.url }}{{ site.baseurl }}/publications/{{ page.image }}" class="img-responsive" style="border-radius: 5px; width: 280px;" />
       <div style="max-width: 280px">
         {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
         {% if page.doi %}<a href="http://doi.org/{{ page.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
@@ -34,7 +34,7 @@ layout: gridlay
       </div>
     </div>
     <h4>{{ page.authors }}</h4>
-    <h5><em>{{ page.display }}</em></h5>
+    <h5><em>{{ page.display }}</em>{% if page.year %} ({{page.year}}){% endif %}</h5>
     {% if page.abstract %}
       <a class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb; pointer-events: none;" role="button">ABSTRACT</a> {{ page.abstract }}
     {% endif %}
