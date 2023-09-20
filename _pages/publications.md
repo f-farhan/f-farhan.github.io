@@ -22,23 +22,15 @@ permalink: /publications/
 
   {% assign pdfpresent = false %}
   {% if publi.pdf %}
-    {% assign pdffile = "/publications/" | append:  publi.pdf  | append: ".pdf" %}
-    {% for file in site.static_files %}
-      {% if file.path contains pdffile %}
-       {% assign pdfpresent = true %}
-      {% endif %}
-    {% endfor %}
+    {% assign pdfpresent = true %}
+    {% assign pdffile = publi.pdf  | append: ".pdf" %}
   {% endif %}
 
   {% if publi.year %}{% else %}
-  {% assign bibtest = false %}
+  {% assign pdfpresent = false %}
   {% if publi.pdf %}
-    {% assign bibfile = "/publications/" | append:  publi.pdf  | append: ".txt" %}
-    {% for file in site.static_files %}
-      {% if file.path contains bibfile %}
-       {% assign bibtest = true %}
-      {% endif %}
-    {% endfor %}
+    {% assign pdfpresent = true %}
+    {% assign pdffile = publi.pdf  | append: ".pdf" %}
   {% endif %}
 
   <div class="well-sm publication-entry">
@@ -53,7 +45,7 @@ permalink: /publications/
     {{ publi.authors }}<br/>
     <em>{{ publi.display }}</em><br/>
     {% if publi.abstract %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}">ABSTRACT</a> {% endif %}
-    {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}2">BIB</a> {% endif %}
+    {% if bibpresent == true %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}2">BIB</a> {% endif %}
     {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
     {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
     {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
@@ -66,7 +58,7 @@ permalink: /publications/
   </div></div>
   {% endif %}
 
-  {% if bibtest == true %}
+  {% if bibpresent == true %}
   <div class="collapse" id="{{publi.pdf}}2"><div class="well-bib">
    <iframe src='{{site.url}}{{site.baseurl}}/publications/{{publi.pdf}}.txt' scrolling="yes" width="100%" height="210" frameborder="0"></iframe>
   </div></div>
@@ -100,26 +92,16 @@ permalink: /publications/
 {% for publi in site.publications %}
 
 {% assign pdfpresent = false %}
-  {% if publi.pdf %}
-    {% assign pdffile = "/publications/" | append:  publi.pdf  | append: ".pdf" %}
-    {% for file in site.static_files %}
-      {% if file.path contains pdffile %}
-       {% assign pdfpresent = true %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
+{% if publi.pdf %}
+  {% assign pdfpresent = true %}
+  {% assign pdffile = publi.pdf  | append: ".pdf" %}
+{% endif %}
 
 {% if publi.year == myyear.year %}
-
-
-{% assign bibtest = false %}
+{% assign bibpresent = false %}
 {% if publi.pdf %}
-{% assign bibfile = "/publications/" | append:  publi.pdf  | append: ".txt" %}
-{% for file in site.static_files %}
-  {% if file.path contains bibfile %}
-   {% assign bibtest = true %}
-  {% endif %}
-{% endfor %}
+  {% assign bibpresent = true %}
+  {% assign bibfile = publi.pdf  | append: ".txt" %}
 {% endif %}
 
 <div class="well-sm publication-entry">
@@ -134,7 +116,7 @@ permalink: /publications/
   {{ publi.authors }}<br />
   <em>{{ publi.display }}</em>{% if publi.year %} ({{publi.year}}){% endif %}<br/>
   {% if publi.abstract %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}">ABSTRACT</a> {% endif %}
-  {% if bibtest == true %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}2">BIB</a> {% endif %}
+  {% if bibpresent == true %} <a data-bs-toggle="collapse" href="#{{publi.pdf}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.pdf}}2">BIB</a> {% endif %}
   {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
   {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
@@ -148,7 +130,7 @@ permalink: /publications/
 </div></div>
 {% endif %}
 
-{% if bibtest == true %}
+{% if bibpresent == true %}
 <div class="collapse" id="{{publi.pdf}}2"><div class="well-bib">
 <iframe src='{{site.url}}{{site.baseurl}}/publications/{{publi.pdf}}.txt' scrolling="yes" width="100%" height="210" frameborder="0"></iframe>
 </div></div>

@@ -3,22 +3,8 @@ layout: gridlay
 ---
 {% assign pdfpresent = false %}
 {% if page.pdf %}
-  {% assign pdffile = "/publications/" | append:  page.pdf  | append: ".pdf" %}
-  {% for file in site.static_files %}
-    {% if file.path contains pdffile %}
-     {% assign pdfpresent = true %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% assign bibtest = false %}
-{% if page.pdf %}
-  {% assign bibfile = "/publications/" | append:  page.pdf  | append: ".txt" %}
-  {% for file in site.static_files %}
-    {% if file.path contains bibfile %}
-     {% assign bibtest = true %}
-    {% endif %}
-  {% endfor %}
+  {% assign pdfpresent = true %}
+  {% assign pdffile = page.pdf  | append: ".pdf" %}
 {% endif %}
 
 <h1> {{ page.title }} </h1>
