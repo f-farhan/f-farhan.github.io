@@ -27,10 +27,10 @@ permalink: /publications/
   {% endif %}
 
   {% if publi.year %}{% else %}
-  {% assign pdfpresent = false %}
+  {% assign bibpresent = false %}
   {% if publi.pdf %}
-    {% assign pdfpresent = true %}
-    {% assign pdffile = publi.pdf  | append: ".pdf" %}
+    {% assign bibpresent = true %}
+    {% assign bibfile = publi.pdf  | append: ".txt" %}
   {% endif %}
 
   <div class="well-sm publication-entry">
