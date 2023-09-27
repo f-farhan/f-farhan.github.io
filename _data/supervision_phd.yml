@@ -1,38 +1,36 @@
-# - name: Vishal Onkhar
-#   name_url: https://www.tudelft.nl/staff/v.onkhar
-#   project: Communication with vulenrable road users by means of eye contact
-#   # project_url:
-#   year: 2020
-#   status: inprogress
-#   comment: co-supervision
+- name: Shadab Alam
+  name_url: https://www.linkedin.com/in/md-shadab-alam-03b8251aa
+  project: Connected data from automated vehicles and road users for traffic safety
+  # project_url:
+  year: 2023
+  status: inprogress
 
-# - name: Tom Driessen
-#   name_url: https://www.tudelft.nl/staff/t.driessen
-#   project: Data-driven assessment of driving behaviour of young and elderly drivers
-#   # project_url:
-#   year: 2019
-#   status: inprogress
-#   comment: co-supervision
+- name: Rutger Verstegen
+  name_url: https://www.linkedin.com/in/rutger-verstegen
+  project: Uncertainty in the field of communication with automated vehicles
+  # project_url:
+  year: 2023
+  status: inprogress
+
+- name: Mervyn Franssen
+  name_url: https://www.linkedin.com/in/mervynfranssen
+  project: Interaction of humans and automated vehicles
+  # project_url:
+  year: 2022
+  status: inprogress
 
 - name: Haoyu Dong 
-  name_url: https://www.linkedin.com/in/haoyudong/
-  project: The interaction design between in-car driver/passenger and highly automated vehicle for calibrating trust and enhancing user experience. 
+  name_url: https://www.linkedin.com/in/haoyudong
+  project: The interaction design between in-car driver/passenger and highly automated vehicle for calibrating trust and enhancing user experience 
   # project_url:
   year: 2021
   status: inprogress
 
 - name: Roulin Gao
-  name_url: https://www.linkedin.com/in/ruolin-gao-731904163/
+  name_url: https://www.linkedin.com/in/ruolin-gao-731904163
   project: Data-driven assessment of driving behaviour of young and elderly drivers
   # project_url:
   year: 2021
-  status: inprogress
-
-- name: Mervyn Franssen
-  name_url: https://www.linkedin.com/in/mervynfranssen/
-  project: Interaction of humans and automated vehicles
-  # project_url:
-  year: 2022
   status: inprogress
 
 # - name: Shiva Nischal Lingam
