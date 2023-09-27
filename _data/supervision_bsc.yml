@@ -1,3 +1,10 @@
+- name: Wouter Salden, Jakub Woziwodzki,, Axel Reitz
+  project: Designing an emergency drone
+  # project_url: https://mobility-squad.com/current
+  year: 2023
+  status: inprogress
+  comment: within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
 - name: Jochem Verstegen
   name_url: https://www.linkedin.com/in/jochemverstegen/
   project: Slidable bicycle handle for AV interaction
