@@ -142,7 +142,7 @@ permalink: /education/
       {% endif %}
   {% endif %}
 
-{{ forloop.index }}. {% if student.name_url %}<a href="{{ student.name_url }}" target="_blank">{% endif %} <strong>{{ student.name }}</strong> {% if student.name_url %}</a>{% endif %} ({{ student.year }}) {% if student.institution %} – at {{ student.institution }} {% endif %}
+{{ forloop.index }}. {% if student.name_url %}<a href="{{ student.name_url }}" target="_blank">{% endif %} <strong>{{ student.name }}</strong> {% if student.name_url %}</a>{% endif %} ({{ student.year }}) {% if student.institution %} – at {{ student.institution }} {% endif %} {% if student.degree %}({{ student.degree }}){% endif %}
 <br/>
 <i>{{ student.project }}</i>{% if pdffile %} (<a href="{{ pdffile }}" target="_blank">link</a>){% endif %}.
 
