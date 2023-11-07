@@ -17,7 +17,7 @@ I received my Bachelor's degree in Electrical and Electronic Engineering from [A
 I worked as a Lecturer at the [Department of Electrical & Electronic Engineering](https://www.aust.edu/eee/faculty_member/mr_faisal_farhan) at Ahsanullah University of Science & Technology and currently on a study leave.
 
 ### Hobbies
-* 🗺️ Travelling ([travel map](https://www.roadgoat.com/travelers/faisal-farhan)).
+* 🗺️ Travelling ([travel map](https://www.travellerspoint.com/map/#/user/1113287)).
 * 💻 Coding ([github](https://github.com/f-farhan)).
 * 🎨 Graphics ([Behance](https://www.behance.net/faisalfarh451b)).
 * 🏀 Basketball
