@@ -1,61 +1,23 @@
-- name: Applied Ergonomics Journal Best Paper award
-  name_url: https://ergonomics.org.uk/accreditation/awards/applied-ergonomics-journal-best-paper.html
-  organisation: CIEHF
-  organisation_url: hhttps://ergonomics.org.uk
-  year: 2021
+- name: Erasmus Mundus Joint Masters Scholarship
+  name_url: https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters
+  organisation: European Commission
+  organisation_url: https://erasmus-plus.ec.europa.eu/
+  year: 2023
 
-- name: Convergence Health and Technology Open Research award
-  name_url: https://www.riotsciencenl.com/award-winners
-  organisation: Convergence Alliance
-  organisation_url: https://convergence.nl
-  year: 2021
+- name: Dean List of Honor in all four academic years
+  name_url: 
+  organisation: Ahsanullah University of Science and Technology
+  organisation_url: https://aust.edu
+  year: 2016-2021
 
-- name: Finalist of IEEE SMC Franklin V. Taylor award
-  name_url: https://www.ieeesmc.org/about-smcs/awards/franklin-v-taylor-memorial-award
-  organisation: SMC
-  organisation_url: https://ieeesmc.org
-  year: 2021
+- name: Khan Bahadur Ahsanullah Gold Medal (President Gold Medal) [To be conferred in Convocation'12)
+  name_url: 
+  organisation: Ahsanullah University of Science and Technology
+  organisation_url: https://aust.edu
+  year: 2024
 
-- name: Open Science award
+- name: Nominee for Prime minister gold medal award (Academic year 2021)
   name_url: https://www.tudelft.nl/en/2020/3me/july/open-science-awards-for-joost-de-winter-and-pavlo-bazilinskyy
-  organisation: NPOS
-  organisation_url: https://www.openscience.nl
-  year: 2020
-
-- name: Best Innovator award
-  name_url: https://www.mariecuriealumni.eu/mcaa-awards
-  organisation: MCAA
-  organisation_url: https://www.mariecuriealumni.eu
-  year: 2018
-  subtitle: to reward a member of MCAA who presents the best innovation approach
-
-- name: Alumni award
-  organisation: EMA
-  organisation_url: https://www.em-a.eu
-  year: 2018
-  subtitle: to celebrate the outstanding achievements of alumni of Erasmus Mundus programmes
-
-- name: European Young Researchers’ award
-  name_url: https://www.euroscience.org/news/eyra-2017-laureates
-  organisation: EuroScience
-  organisation_url: https://www.euroscience.org
-  subtitle: to recognise PhD candidate who has demonstrated an outstanding research performance, leadership and outreach and has incorporated a clear European dimension in their research 
-  year: 2017
-
-- name: Best student out of 20 students in MSc DESEM, 2nd year
-  name_url: https://www.mscdesem.ie
-  organisation: Maynooth University
-  organisation_url: https://www.maynoothuniversity.ie
-  year: 2014
-
-- name: Best student out of 20 students in MSc DESEM, 1st year
-  name_url: https://www.mscdesem.ie
-  organisation: University of St Andrews
-  organisation_url: https://www.st-andrews.ac.uk
-  year: 2013
-
-- name: Silver prize for the Best paper awards during StuConOS
-  name_url: http://www0.cs.ucl.ac.uk/staff/Yuanyuan.Zhang/StuConOS2013/papers.html
-  organisation: University College London
-  organisation_url: https://www.ucl.ac.uk
-  year: 2013
+  organisation: UGC
+  organisation_url: https://ugc.gov.bd/
+  year: 2021

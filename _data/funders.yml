@@ -1,8 +1,8 @@
-- image: ec-logo.png
-  url: https://ec.europa.eu/info/index_en
-- image: msca-logo.png
-  url: https://ec.europa.eu/research/mariecurieactions/about-marie-sklodowska-curie-actions
-- image: nwo-logo.png
-  url: https://www.nwo.nl
-- image: 4tu-logo.png
-  url: https://www.4tu.nl
+- image: aust.png
+  url: https://www.aust.edu/
+- image: ec.png
+  url: https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters
+- image: girona.png
+  url: https://www.udg.edu/en/
+- image: borg.png
+  url: https://www.u-bourgogne.fr/
