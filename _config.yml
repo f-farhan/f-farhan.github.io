@@ -1,24 +1,24 @@
 # Site settings
-title: Dr. Pavlo Bazilinskyy
-email: p.bazilinskyy@tudelft.nl
-description: Personal webpage of Dr. Pavlo Bazilinskyy
+title: Faisal Farhan
+email: faisalfarhan.eee@aust.edu
+description: Personal webpage of Faisal Farhan
 baseurl: ""
 url: ""
-affiliation: I am part of the <a href="https://www.tue.nl/en/research/research-groups/future-everyday/" target="_blank">Future Everyday</a> group at TU Eindhoven.
+affiliation: ""
 
 # Google analytics ID
 google_analytics: G-7BE63RZMTW
 
 # Location info. (shown in footer)
 location: >
-  Department of Industrial Design<br/>
-  P.O. Box 513<br/>
-  5600 MB Eindhoven<br/>
-  Netherlands<br/>
+  University de Bourgogne<br/>
+  P.O. Box 71200<br/>
+  Rue De Chanzy, Le Creusot<br/>
+  France<br/>
 
 # Contact info. (shown in footer)
 contact: >
-    Contact me via email: <a href="mailto:p.bazilinskyy@tue.nl" target="_blank">p.bazilinskyy@tue.nl</a><br/>
+    Contact me via email: <a href="mailto:faisalfarhan.eee@aust.edu" target="_blank">faisalfarhan.eee@aust.edu</a><br/>
 
 # Pages shown in navbar
 nav_pages:
