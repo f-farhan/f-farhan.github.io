@@ -1,11 +1,11 @@
 ---
-title: "Research"
+title: "Project"
 layout: gridlay
 sitemap: false
 permalink: /research/
 ---
 
-# Research
+# Project
 
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/research/multi_user_communication.jpg" class="img-responsive" style="float: left; border-radius: 5px; width: 280px; height: 158px" />

@@ -72,7 +72,7 @@ permalink: /about/
 ## Short biography
 
 <div class="short-bio">
-  Pavlo Bazilinskyy is an assistant professor at TU Eindhoven focusing on AI-driven interaction between automated vehicles and other road users. He finished his PhD at TU Delft in auditory feedback for automated driving as a Marie Curie Fellow, where he also worked as a postdoc. He was the head of data research at SD-Insights. Pavlo is a treasurer of the Marie Curie Alumni Association (MCAA) and was a director of the Research and Innovation unit of the Erasmus Mundus Association (EMA).
+  I am currently pursuing an [Erasmus Mundus Joint master's Degree in Medical Imaging and Applications (MAIA)](https://maiamaster.udg.edu/). I received my Bachelor's degree in Electrical and Electronic Engineering from [Ahsanullah University of Science & Technology](https://www.aust.edu/)  , Dhaka, Bangladesh.
 </div>
 
 {% if site.data.awards %}
@@ -85,15 +85,6 @@ permalink: /about/
 </div>
 {% endif %}
 
-{% if site.data.grants %}
-## Grants
-<div class="rowl1" style="padding-top: 10px;">
-
-{% for grant in site.data.grants %}
-{{ forloop.index }}. {% if grant.name_url %}<a href="{{ grant.name_url }}" target="_blank">{% endif %}<strong>{{ grant.name }}</strong>{% if grant.name_url %}</a>{% endif %} {% if grant.organisation %} from {% if grant.organisation_url %}<a href="{{ grant.organisation_url }}" target="_blank">{% endif %} {{ grant.organisation }}{% if grant.organisation_url %}</a>{% endif %}{% endif %}{% if grant.subtitle %}: {{ grant.subtitle }}{% endif %} ({{ grant.year }}).
-{% endfor %}
-</div>
-{% endif %}
 
 {% if site.data.collaborators %}
 ## Collaborations
