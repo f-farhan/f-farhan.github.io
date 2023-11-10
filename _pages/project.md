@@ -2,7 +2,7 @@
 title: "Project"
 layout: gridlay
 sitemap: false
-permalink: /research/
+permalink: /project/
 ---
 
 # Project
