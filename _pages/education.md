@@ -5,7 +5,7 @@ sitemap: false
 permalink: /education/
 ---
 
-# Education
+# Teaching
 
 {% if site.courses %}
 <!-- Sort courses by year -->
