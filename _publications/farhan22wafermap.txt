@@ -1,0 +1,9 @@
+@article{farhan22wafermap,
+  title={High Accuracy Swin Transformers for Image-based Wafer Map Defect Detection},
+  author={Thahmidul I. Nafi, Erfanul Haque, Faisal Farhan, Asif Rahman},
+  journal={International Journal of Engineering and Manufacturing (IJEM)},
+  volume={12},
+  pages={10--21},
+  year={2022},
+  publisher={MECS}
+}

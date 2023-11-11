@@ -1,9 +1,0 @@
-@inproceedings{ebel2023breaking,
-  title={Breaking barriers: Workshop on open data practices in AutoUI research},
-  author={Ebel, Patrick and Bazilinskyy, Pavlo and Hwang, Angel Hsing-Chi and Ju, Wendy and  Sandhaus, Hauke and Srinivasan, Aravinda Ramakrishnan and Yang, Qian and Wintersberger, Philipp},
-  booktitle={Proceedings of AutomotiveUI. Ingolstadt, Germany},
-  year={2023},
-  pages={227--230}
-  doi={10.1145/3581961.3609835},
-  url={https://doi.org/10.1145/3581961.3609835}
-}
