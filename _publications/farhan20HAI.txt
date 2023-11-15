@@ -1,0 +1,9 @@
+@article{farhan20HAI,
+  title={A Performance Evaluation of Machine Learning Models on Human Activity Identification (HAI)},
+  author={Taki Hasan Rafi, <b>Faisal Farhan</b>},
+  journal={ Advances in Intelligent Systems and Computing},
+  volume={1383},
+  pages={256--265},
+  year={2020},
+  publisher={SPRINGER}
+}

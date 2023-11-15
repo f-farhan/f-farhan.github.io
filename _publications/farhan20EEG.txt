@@ -1,0 +1,9 @@
+@article{farhan20EEG,
+  title={Electroencephalogram (EEG) brainwave signal-based emotion recognition using extreme gradient boosting algorithm},
+  author={T. H. Rafi, <b>F. Farhan</b>, Z. Hoque, F. Quayyum},
+  journal={Annals of Engineering},
+  volume={1},
+  pages={1--19},
+  year={2020},
+  publisher={ImperialOpen Publishing}
+}
