@@ -1,0 +1,9 @@
+@article{farhan21camd,
+  title={Recent Advances in Computer-Aided Medical Diagnosis Using Machine Learning Algorithms with Optimization Techniques},
+  author={T. H. Rafi, R. M. Shubair, F. Farhan, M. Z. Hoque and F. M. Quayyum.},
+  journal={IEEE Access},
+  volume={9},
+  pages={137847-137868},
+  year={2021},
+  publisher={IEEE}
+}
