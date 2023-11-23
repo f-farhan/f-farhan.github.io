@@ -2,7 +2,7 @@
 title: "Teaching"
 layout: gridlay
 sitemap: false
-permalink: /education/
+permalink: /teaching/
 ---
 
 # Teaching
