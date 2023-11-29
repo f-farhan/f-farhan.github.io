@@ -1,50 +1,38 @@
 ---
-title: "0HM310: Automotive human factors"
+title: "EEE 2285: Introduction to Digital and Analog Electronics"
 layout: course
 sitemap: false
-name: Automotive human factors
-name_url: https://research.tue.nl/en/courses/automotive-human-factors-3
+name: EEE 2285: Introduction to Digital and Analog Electronics
+name_url: https://sites.google.com/aust.edu/coursesitef/spring-2022/eee-2285-ipe?fbclid=IwAR3wbR3Mvs3J5L4FqHctixnOTFFY1Ff7XWR8se5eWTxDtI9q8GanyKCgJZU
 year_start: 2022
 year_end: 
-institution: TU/e
-type: msc
-students: 60+
-code: 0HM310
-subheading: Exploration of relation between a car or truck, its human driver, and the dynamic environment
-pdf: tue_0HM310-studyguide
+institution: AUST
+type: bsc
+students: 100
+code: EEE2285
+subheading: Spring 2022, Program: B.Sc in Industrial and Production Engineering (IPE)
+pdf: EEE2285 (IPE)_CO_SP2022_Faisal Farhan
 comment: 
 ---
-#### Introduction
-The course Automotive Human Factors addresses the relation between a car or truck, its human driver, and the dynamic environment . It is concerned with the goals of productivity (getting from A to B in a reasonable time), safety and accident prevention, and driver comfort and experience. The 'Perception-Cognition-Action' cycle is taken as a point of departure, treating basic sensory processes (vision, hearing, touch), cognitive processes (mechanisms of attention, stress and workload) and human factors (displays & controls, automation, safety).
+#### Synopsis from the Approved Curriculum
+Intrinsic and extrinsic semiconductors; operational principle of a p-n junction diode, contact potential and biasing of a diode, current-voltage characteristics of a diode, simplified DC and AC diode models, dynamic resistance and capacitance. Half wave and full wave rectifiers, rectifiers with filter capacitor, clamping and clipping circuits. Characteristics of a Zener diode. BJT characteristics and its different regions of operation. Biasing of a BJT. Small signal equivalent circuit models of BJT. Voltage and current gain, input and output impedance of common base, common emitter and common collector amplifier circuits. Structure and physical operation of an enhancement MOSFET. Properties of ideal OP-Amps, non-inverting and inverting amplifiers, inverting integrators, differentiator, weighted summer and other applications of Op-Amp circuits. Comparator circuit with Op-Amps. Number system and codes. Boolean algebra, De Morgan’s law. Diode logic gates, transistor switches, transistor-transistor gates, MOS gates. Logic Families: TTL, ECL, IIL and CMOS logic with operation details. Decoders and encoders, multiplexers and combinational circuit design. Different types of latches, flip-flops. A/D and D/A converters with applications. Timing circuit using 555 Timer IC. Monostable and astable multivibrators
 
-#### My role
-- 2022–2023: lecturer.
-- 2023–: responsible lecturer.
+#### Instructor
+- <b>Faisal Farhan</b>
+- Room: 9B02
+- Consultation hour: Monday (1.00 p.m - 2.40 p.m), Tuesday, Wednesday  (3.30 p.m - 5.00 p.m
 
-#### Learning goals
-- **L1**. To gain a basic understanding of the human perceptual system (vision, hearing, touch) and its relevance to automotive tasks and information feedback.
-- **L2**. To obtain insight into the role and importance of attention mechanisms, stress, workload, control and automation in an automotive context.
-- **L3**. To obtain a basic understanding of transportation safety and accident prevention guidelines and legislation.
-- **L4**. To gain basic design knowledge regarding displays, control and navigation mechanisms.
-- **L5**. To study driver characteristics: motivations, age, drug effects.
-- **L6**. To understand the relevance of involving the user in the design process and be able to apply human-centred design methods and evaluation metrics within an automotive context. 
+#### Learning Outcomes
+- **L1**. Explain the basic operation of different semiconductor devices (Diode, BJT, MOSFET, Op-amp etc.).
+- **L2**. Discuss the operation of different digital and analog circuits.
+- **L3**. Solve mathematical problems related to devices and analog & digital circuits.
 
 #### Study material
-- Designing for People: An Introduction to Human Factors Engineering 3rd Edition by John D Lee , Christopher D. Wickens , Yili Liu , Linda Ng Boyle. ISBN-13: 978-1539808008, ISBN-10: 1539808009.
-- A number of selected papers/book chapters that will be announced in the lectures as they may change every year.
+- R. L.  Boylestad and L. Nashelsky , Electrronic Devices & Circuit Theory, 10th ed. NJ: Pearson, 2012
+- M. M. Mano, Digital Logic and Computer Design, 5th ed. NJ: Prentice-Hall,Inc., 1994
+- A.S. Sedra and K. C. Smith, Microelctronic Circuits, 5th ed.NY: Oxford University Press, Inc., 2004
 
-#### Organisation and schedule
-Five ECTS corresponds to 140 hrs or roughly 14 hrs/week. This is subdivided in:
-- Two hours lectures/tutorials on Tuesday and Friday.
-- Four hours assignment work (self study).
-- Six hours self study.
-
-#### Exams and assignments
-At the end of the course there will be a written exam. The average grade for the assignments and the grade for the exam both count for 50% of the final grade. To pass the course the average grade must be 5,5 or higher AND the grade for the written exam must be 5,0 or higher to pass! In case a student fails he or she can do a retake of the written exam and keep the average grade for the assignments in the same year. In case a student wants to retake the assignments he or she should contact the lecturers in order to find an appropriate solution. This option is only available if you passed the written exam, but failed the course.
-
-##### Assignments
-The assignments are carried out in groups of 4-6 students. The theme will be How can we make use of the interior of the automated car. You will work on this theme over the course of 8 weeks making use of the material from the lectures. A detailed roadmap and list of deliverables will be provided during the course. A rough indication of the topics is shown below:
-- Week 1+2: Research methods & User centred design.
-- Week 3+4: Perception and display design.
-- Week 5+7: Attention, Stress and Workload.
-- Week 8: Final deliverable.
+#### Assesment Methods
+- Class Attendance and Performance: **10 marks**
+- Quiz: **20 marks**
+- Final Examination: **70 marks**

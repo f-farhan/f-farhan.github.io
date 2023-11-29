@@ -44,7 +44,7 @@ permalink: /teaching/
 
 <!-- Sort students by year -->
 {% assign students = site.data.supervision_bsc | sort: 'year' | reverse %}
-## Supervision of BSc students and student groups
+<!--## Supervision of BSc students and student groups
 <div class="rowl1" style="padding-top: 10px;">
 
 {% for student in students %}
@@ -63,6 +63,6 @@ permalink: /teaching/
 
 {% endfor %}
 </div>
-{% endif %}
+{% endif %}-->
 
 
