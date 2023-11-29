@@ -2,7 +2,7 @@
 title: "EEE2285: Introduction to Digital and Analog Electronics"
 layout: course
 sitemap: false
-name: EEE2285: Introduction to Digital and Analog Electronics
+name: Introduction to Digital and Analog Electronics
 name_url: https://sites.google.com/aust.edu/coursesitef/spring-2022/eee-2285-ipe?fbclid=IwAR3wbR3Mvs3J5L4FqHctixnOTFFY1Ff7XWR8se5eWTxDtI9q8GanyKCgJZU
 year_start: 2022
 year_end: 
