@@ -10,8 +10,8 @@ institution: AUST
 type: bsc
 students: 100
 code: EEE2285
-subheading: Spring 2022, Program: B.Sc in Industrial and Production Engineering (IPE)
-pdf: EEE2285 (IPE)_CO_SP2022_Faisal Farhan
+subheading: Spring 2022,(B.Sc in Industrial and Production Engineering (IPE))
+pdf: EEE2285-CO
 comment: 
 ---
 #### Synopsis from the Approved Curriculum
