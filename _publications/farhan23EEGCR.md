@@ -3,7 +3,7 @@ layout: publication
 sitemap: false
 title: "Effect of Input Channel Reduction on EEG Seizure Detection"
 authors: Md Shaikh Abrar Kabir, <b>Faisal Farhan</b>, Adnan Amin Siddique, Oli Lowna Baroi, Taniza Marium, Md. Jakaria Rahimi.
-pdf: farhan22EEGCR
+pdf: farhan23EEGCR
 image: farhan23EEGCR.png
 display: Przegląd Elektrotechniczny
 year: 2023
