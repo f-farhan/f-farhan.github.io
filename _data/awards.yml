@@ -1,3 +1,9 @@
+- name: Aquisis International Mobility Grant
+  name_url: https://www.bourgognefranchecomte.fr/mobilite-internationale
+  organisation: Université De Bourgogne
+  organisation_url: https://www.ube.fr/
+  year: 2024
+
 - name: Erasmus Mundus Joint Masters Scholarship
   name_url: https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters
   organisation: European Commission
