@@ -3,6 +3,7 @@ layout: publication
 sitemap: false
 title: "ANN based approach to predict Criminal Trends in Bangladesh."
 authors: <b>Faisal Farhan</b>, Thahmidul Islam Nafi.
+pdf: farhan22crime
 image: farhan22crime.png
 display: 2nd International Conference on Artificial Intelligence and Signal Processing (AISP), IEEE
 year: 2022
