@@ -8,13 +8,12 @@ permalink: /
 <style>
 code {padding: 6px 8px; font-size: 90%;}
 </style>
-I am currently pursuing an [Erasmus Mundus Joint master's Degree in Medical Imaging and Applications (MAIA)](https://maiamaster.udg.edu/) , coordinated by the University of Girona, Spain, along with the Université de Bourgogne, France, and the University of Cassino, Italy as partner universities.
-
-My research interest includes Signal Processing, Medical Imaging, Image Processing, Machine Learning & Applied Artificial Intelligence.
+I am currently working as a Lecturer at [Ahsanullah University of Science & Technology](https://www.aust.edu/), Dhaka, Bangladesh. I completed my [Erasmus Mundus Joint master's Degree in Medical Imaging and Applications (MAIA)](https://maiamaster.udg.edu/) in 2025, coordinated by the University of Girona, Spain, along with the Université de Bourgogne, France and the University of Cassino and Southern Lazio, Italy as partner universities. I worked as a Graduate Research Intern at [Laboratoire en Imagerie et Vision Artificielle (ImVIA)](https://imvia.ube.fr/en/page-d-exemple/) in Dijon, France where i did my thesis titled "Design and Validation of Multimodal and Lightweight Handheld ST-rPPG
+Acquisition Systems for Physiological measurements" under the supervision of [Prof. Yannick Benezeth](https://sites.google.com/view/ybenezeth/home).
 
 I received my Bachelor's degree in Electrical and Electronic Engineering from [Ahsanullah University of Science & Technology](https://www.aust.edu/)  , Dhaka, Bangladesh. My B.Sc. thesis was on Pattern Recognition system for the development of Raspberry Pi based speaker recognizer.
 
-I worked as a Lecturer at the [Department of Electrical & Electronic Engineering](https://www.aust.edu/eee/faculty_member/mr_faisal_farhan) at Ahsanullah University of Science & Technology and currently on a study leave.
+My current research interest includes Signal Processing, Medical Imaging, Image Processing, Machine Learning & Deep Learning.
 
 ### Hobbies
 * 🗺️ Travelling ([travel map](https://www.travellerspoint.com/map/#/user/1113287)).

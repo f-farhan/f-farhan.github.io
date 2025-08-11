@@ -72,7 +72,11 @@ permalink: /about/
 ## Short biography
 
 <div class="short-bio">
-  I am currently pursuing an [Erasmus Mundus Joint master's Degree in Medical Imaging and Applications (MAIA)](https://maiamaster.udg.edu/). I received my Bachelor's degree in Electrical and Electronic Engineering from [Ahsanullah University of Science & Technology](https://www.aust.edu/)  , Dhaka, Bangladesh.
+I am currently working as a Lecturer at [Ahsanullah University of Science & Technology](https://www.aust.edu/), Dhaka, Bangladesh. I completed my [Erasmus Mundus Joint master's Degree in Medical Imaging and Applications (MAIA)](https://maiamaster.udg.edu/) in 2025.
+
+I received my Bachelor's degree in Electrical and Electronic Engineering from [Ahsanullah University of Science & Technology](https://www.aust.edu/)  , Dhaka, Bangladesh. My B.Sc. thesis was on Pattern Recognition system for the development of Raspberry Pi based speaker recognizer.
+
+My current research interest includes Signal Processing, Medical Imaging, Image Processing, Machine Learning & Deep Learning.
 </div>
 
 {% if site.data.awards %}
