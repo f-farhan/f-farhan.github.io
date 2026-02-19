@@ -1,3 +1,9 @@
+- name: Khan Bahadur Ahsanullah Gold Medal (President Gold Medal)
+  name_url: 
+  organisation: Ahsanullah University of Science and Technology
+  organisation_url: https://aust.edu
+  year: 2025
+
 - name: Aquisis International Mobility Grant
   name_url: https://www.bourgognefranchecomte.fr/mobilite-internationale
   organisation: Université De Bourgogne
@@ -16,8 +22,4 @@
   organisation_url: https://aust.edu
   year: 2016-2021
 
-- name: Khan Bahadur Ahsanullah Gold Medal (President Gold Medal)
-  name_url: 
-  organisation: Ahsanullah University of Science and Technology
-  organisation_url: https://aust.edu
-  year: 2025
+

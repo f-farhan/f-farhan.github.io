@@ -1,22 +1,24 @@
 - name: Faisal Farhan
   photo-small: bazilinskyy-defence.jpg
   photo-large: bazilinskyy-cycling.jpg
-  info: Erasmus Mundus Joint Master (EMJM) Scholar 2023-2025 | Msc in Medical Imaging and Applications |
-  email: faisalfarhaaan@gmail.com
+  info: Lecturer @ AUST | Erasmus Mundus Joint Masters in Medical Imaging and Applications | 
+  email: faisalfarhan.eee@aust.edu
   github: https://github.com/f-farhan
   researchgate: https://www.researchgate.net/profile/Faisal-Farhan-2
   scholar: https://scholar.google.com/citations?hl=en&user=dr0BTJ0AAAAJ
   linkedin: https://www.linkedin.com/in/faisal-farhan/
   facebook: https://www.facebook.com/faisal.farhaaan?_rdc=1&_rdr
   cv: https://github.com/f-farhan/f-farhan.github.io/blob/master/cv/Resume%20of%20Faisal%20Farhan.pdf
-  number_educ: 5
-  education1: (2025) Graduate Research Intern at <a href="https://imvia.ube.fr/" target="_blank">Le laboratoire Imagerie et Vision Artificielle (ImViA)</a>
-  education2: (2023–2025) Erasmus Mundus Joint M.Sc Degree in <a href="https://maiamaster.udg.edu/" target="_blank">Medical Imaging and Applications (MAIA)</a>
-  education3: (2021–2023) Lecturer in <a href="https://www.aust.edu/eee/faculty_member/mr_faisal_farhan" target="_blank">Electrical and Electronic Engineering Department</a> at <a href="https://www.aust.edu/" target="_blank">AUST</a> 
-  education4: (2021) Faculty Member at <a href="https://www.eastdelta.edu.bd/home" target="_blank">East Delta University</a> 
-  education5: (2016-2021) <b>B.Sc. in Electrical and Electronic Engineering</b> at <a href="https://www.aust.edu/" target="_blank">Ahsanullah University of Science and Technology</a> 
-  education1short: (2025) Research Intern @ IMVIA
-  education2short: (2023-2025) M.Sc in Medical Imaging and Applications
-  education3short: (2021-2023) Lecturer, AUST (on-study leave)
-  education4short: (2021) Faculty Member, East Delta University
-  education5short: (2016–2021) B.Sc. Electrical and Electronic Engineering, AUST
+  number_educ: 6
+  education1: (2025–Present) Lecturer in <a href="https://www.aust.edu/eee/faculty_member/mr_faisal_farhan" target="_blank">Electrical and Electronic Engineering Department</a> at <a href="https://www.aust.edu/" target="_blank">AUST</a>
+  education2: (2025) Graduate Research Intern at <a href="https://imvia.ube.fr/" target="_blank">Le laboratoire Imagerie et Vision Artificielle (ImViA)</a>
+  education3: (2023–2025) Erasmus Mundus Joint M.Sc Degree in <a href="https://maiamaster.udg.edu/" target="_blank">Medical Imaging and Applications (MAIA)</a>
+  education4: (2021–2023) Lecturer in <a href="https://www.aust.edu/eee/faculty_member/mr_faisal_farhan" target="_blank">Electrical and Electronic Engineering Department</a> at <a href="https://www.aust.edu/" target="_blank">AUST</a> 
+  education5: (2021) Faculty Member at <a href="https://www.eastdelta.edu.bd/home" target="_blank">East Delta University</a> 
+  education6: (2016-2021) <b>B.Sc. in Electrical and Electronic Engineering</b> at <a href="https://www.aust.edu/" target="_blank">Ahsanullah University of Science and Technology</a> 
+  education1short: (2025-Present) Lecturer, AUST (on-study leave)
+  education2short: (2025) Research Intern @ IMVIA
+  education3short: (2023-2025) M.Sc in Medical Imaging and Applications
+  education4short: (2021-2023) Lecturer, AUST (on-study leave)
+  education5short: (2021) Faculty Member, East Delta University
+  education6short: (2016–2021) B.Sc. Electrical and Electronic Engineering, AUST

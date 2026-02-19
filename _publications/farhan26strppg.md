@@ -1,0 +1,12 @@
+---
+layout: publication
+sitemap: false
+title: "Enhanced vascular perfusion mapping and heart rate estimation via spatio-temporal rPPG with optical and motion compensation techniques"
+authors: <b>Faisal Farhan</b>, Yannick Benezeth.
+pdf: farhan26strppg
+image: farhan26strppg.jpg
+display: Biomedical Physics and Engineering Express
+year: 2026
+doi: https://doi.org/10.1088/2057-1976/ae1e82
+abstract: "Remote photoplethysmography (rPPG) offers a non-contact method for monitoring physiological signals using camera-based systems. The goal of this research is to estimate heart rate and spatial distributions of vascular perfusion using spatio-temporal rPPG (ST-rPPG) and to evaluate the impact of polarization, spectral filtering, and motion compensation on perfusion map quality and heart rate estimation. Two acquisition setups were used: an RGB camera with and without cross-polarization, and a monochrome camera combined with spectral filters. A motion compensation strategy was implemented that combined optical flow-based stable segment selection and temporal video stabilization to reduce motion artifacts. Four rPPG algorithms (GREEN, CHROM, POS, and G-R) were evaluated using three performance metrics: Absolute Error (AE), Signal Quality Index (SQI), and Signal-to-Noise Ratio (SNR) under cross polarized and non polarized lighting in 20 subjects to assess their suitability for perfusion mapping. GREEN and G-R method stood out giving the best results. In the second setup, nine spectral filters were tested across three anatomical regions using the GREEN method, to investigate the influence of wavelength selection on spatial perfusion signal quality. Green, orange, and blue wavelengths produced the best results in terms of AE, SQI and SNR, particularly in the palm region. Visualizations like the spatial perfusion maps, confirmed the superiority of motion-compensated, polarized, and spectrally optimized conditions for enhancing non-contact vascular perfusion assessment. Prior rPPG studies focused primarily on facial datasets or single optical factors, while this work provides the systematic evaluation of polarization, spectral filtering, and motion compensation in a unified hand-based framework, extending established rPPG methods toward high-resolution perfusion mapping."
+---

@@ -19,7 +19,7 @@ My current research interest includes Signal Processing, Medical Imaging, Image 
 * 🗺️ Travelling ([travel map](https://www.travellerspoint.com/map/#/user/1113287)).
 * 💻 Coding ([github](https://github.com/f-farhan)).
 * 🎨 Graphics ([Behance](https://www.behance.net/faisalfarh451b)).
-* 🏀 Basketball
+* 🏀 Basketball, Table Tennis
 * 📷 Photography
 
 <br/>

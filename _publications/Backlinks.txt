@@ -1,0 +1,6 @@
+ML Notes (Backlinks)
+--------------
+2. ML Workflow
+	Data Collection: https://www.geeksforgeeks.org/data-analysis/methods-of-data-collection/
+	Model Evaluation: https://www.geeksforgeeks.org/machine-learning/machine-learning-model-evaluation/
+	
