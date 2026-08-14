@@ -4,13 +4,13 @@ layout: course
 sitemap: false
 name: Digital Electronics Lab
 name_url: 
-year_start: 2023
+year_start: 2026
 year_end: 
 institution: AUST
 type: bsc
 students: 50
 code: EEE 2286
-subheading: Fall 2022,(B.Sc in Mechanical Engineering(ME)
+subheading: Fall 2026,(B.Sc in Mechanical Engineering(ME)
 pdf: EEE2286
 comment: 
 ---

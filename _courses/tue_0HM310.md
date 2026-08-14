@@ -1,17 +1,17 @@
 ---
-title: "EEE2285: Introduction to Digital and Analog Electronics"
+title: "EEE 2177 : Introduction to Analog and Digital Electronics"
 layout: course
 sitemap: false
 name: Introduction to Digital and Analog Electronics
-name_url: https://sites.google.com/aust.edu/coursesitef/spring-2022/eee-2285-ipe?fbclid=IwAR3wbR3Mvs3J5L4FqHctixnOTFFY1Ff7XWR8se5eWTxDtI9q8GanyKCgJZU
-year_start: 2022
+name_url: https://sites.google.com/aust.edu/coursesitef/spring-2025/eee-2177
+year_start: 2025
 year_end: 
 institution: AUST
 type: bsc
-students: 100
-code: EEE2285
-subheading: Spring 2022,(B.Sc in Industrial and Production Engineering (IPE))
-pdf: EEE2285-CO
+students: 50
+code: EEE2177
+subheading: Spring 2025,(B.Sc in Industrial and Production Engineering (IPE))
+pdf: EEE 2177_ Course Introduction
 comment: 
 ---
 #### Synopsis from the Approved Curriculum
@@ -20,7 +20,7 @@ Intrinsic and extrinsic semiconductors; operational principle of a p-n junction 
 #### Instructor
 - <b>Faisal Farhan</b>
 - Room: 9B02
-- Consultation hour: Monday (1.00 p.m - 2.40 p.m), Tuesday, Wednesday  (3.30 p.m - 5.00 p.m
+- Consultation hour: Monday (1.00 p.m - 2.40 p.m), Wednesday  (3.30 p.m - 5.00 p.m)
 
 #### Learning Outcomes
 - **L1**. Explain the basic operation of different semiconductor devices (Diode, BJT, MOSFET, Op-amp etc.).
@@ -35,4 +35,5 @@ Intrinsic and extrinsic semiconductors; operational principle of a p-n junction 
 #### Assesment Methods
 - Class Attendance and Performance: **10 marks**
 - Quiz: **20 marks**
-- Final Examination: **70 marks**
+- Mid Term: **20 marks**
+- Final Examination: **50 marks**

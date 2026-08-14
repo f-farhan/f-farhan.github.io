@@ -4,13 +4,13 @@ layout: course
 sitemap: false
 name: Electronics II Lab
 name_url: 
-year_start: 2023
+year_start: 2026
 year_end: 
 institution: AUST
 type: bsc
-students: 100
+students: 75
 code: EEE 2204
-subheading: Fall 2022,(B.Sc in EEE)
+subheading: Fall 2026,(B.Sc in EEE)
 pdf: EEE2204
 comment: 
 ---
