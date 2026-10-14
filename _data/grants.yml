@@ -1,4 +1,94 @@
-- name: FAIR data fund
+- name: "SPIKE-1 project \"GlobalWalk: Privacy preserving video modelling of human walking across global environments\""
+  name_url: https://supercomputing.tue.nl/blog/2025/spike-1-is-now-open-to-general-research
+  organisation: TU/e Supercomputing Center
+  organisation_url: https://supercomputing.tue.nl
+  year: 2026
+
+- name: "Swiss AI Initiative Large Project \"Reality-Grounded World Model\""
+  name_url: https://www.swiss-ai.org/swiss-ai-projects
+  organisation: Swiss AI
+  organisation_url: https://www.swiss-ai.org
+  year: 2026
+
+- name: FAIR Data fund
+  name_url: https://community.data.4tu.nl/the-fair-data-fund
+  organisation: 4TU.ResearchData
+  organisation_url: https://data.4tu.nl
+  year: 2026
+
+- name: EAISI Visiting professor grant for Dr. M. Hoggenmueller to visit TU Eindhoven
+  name_url: https://www.tue.nl/en/our-university/calendar-and-events/30-06-2026-eaisi-lecture-by-visiting-professor-marius-hoggenmueller
+  organisation: EAISI institute of TU Eindhoven
+  organisation_url: https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute
+  year: 2026
+
+- name: Leadership micro grant
+  name_url: https://www.mariecuriealumni.eu/mcaa-leadership-micro-grant-2025-26
+  organisation: MCAA
+  organisation_url: https://www.mariecuriealumni.eu
+  year: 2025
+
+- name: NWO Small compute application
+  name_url: https://www.surf.nl/en/small-compute-applications-nwo
+  organisation: NWO
+  organisation_url: https://www.nwo.nl/en
+  year: 2025
+
+- name: EAISI Visiting professor grant for Dr. M. Colley to visit TU Eindhoven
+  name_url: https://www.tue.nl/en/our-university/calendar-and-events/09-12-2025-eaisi-lecture-by-visiting-professor-mark-colley
+  organisation: EAISI institute of TU Eindhoven
+  organisation_url: https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute
+  year: 2025
+
+- name: EuroTech Visiting Researcher grant for visiting EPFL
+  name_url: https://eurotech-universities.eu/funding/eurotech-visiting-researcher-programme
+  organisation: EuroTech Universities Alliance 
+  organisation_url: https://eurotech-universities.eu
+  year: 2025
+
+- name: EAISI Visiting professor grant for Dr. P. Ebel to visit TU Eindhoven
+  name_url: https://www.tue.nl/en/our-university/calendar-and-events/24-04-2025-eaisi-lecture-of-visiting-professor-patrick-ebel
+  organisation: EAISI institute of TU Eindhoven
+  organisation_url: https://www.tue.nl/en/research/institutes/eindhoven-artificial-intelligence-systems-institute
+  year: 2025
+
+- name: Horizon Europe CERTAIN (WP leader)
+  name_url: https://www.tue.nl/en/news-and-events/news-overview/07-02-2025-innovation-in-safety-tues-certain-project-receives-horizon-europe-funding
+  organisation: European Commission
+  organisation_url: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en
+  year: 2025
+
+- name: 4TU.Design United probe
+  name_url: https://www.4tu.nl/du
+  organisation: 4TU.Design United
+  organisation_url: https://www.4tu.nl/du/design-research/probe-funding
+  year: 2024
+
+- name: "Support in preparation of CSA \"Career Advancement, Policy Impact, and Networking for the MSCA Community\" (HORIZON-MSCA-2024-ALUMNI-IBA)"
+  name_url: https://cordis.europa.eu/project/id/101194672
+  organisation: European Commission
+  organisation_url: https://commission.europa.eu
+  year: 2024
+
+- name: Grant for a PhD for tenure-trackers in the Netherlands
+  name_url:
+  organisation: Ministry of Education, Culture and Science of the Netherlands
+  organisation_url: https://www.government.nl/ministries/ministry-of-education-culture-and-science
+  year: 2023
+
+- name: 4TU.NIRICT Community fund
+  name_url: https://www.4tu.nl/nirict/news/Two%20projects%20awarded%20funding%20for%204TU.NIRICT%20call%20Community%20Funding%202023
+  organisation: 4TU.NIRICT
+  organisation_url: https://www.4tu.nl/nirict
+  year: 2023
+
+- name: "Support in preparation of CSA \"MCAA new horizon: Enhancing the impact of MSCA Alumni on the European Research Landscape\" (HORIZON-MSCA-2022-ALUMNI-IBA)"
+  name_url: https://cordis.europa.eu/project/id/101086922
+  organisation: European Commission
+  organisation_url: https://commission.europa.eu
+  year: 2022
+
+- name: FAIR Data fund
   name_url: https://community.data.4tu.nl/2021/05/15/fair-data-fund-spring-call-2021-meet-the-grantees
   organisation: 4TU.ResearchData
   organisation_url: https://data.4tu.nl

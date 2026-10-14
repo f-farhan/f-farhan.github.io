@@ -1,8 +1,88 @@
+- name: Kaixuan Chen
+  degree: MSc
+  name_url:
+  project: "StarMix: A thematic VR music experience for exploratory and social listening"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Sigi van Lindt
+  degree: MSc
+  name_url: https://www.linkedin.com/in/sigidesign
+  project: "Uncharted waters"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Reijer Koudenburg
+  degree: BSc
+  name_url: https://www.linkedin.com/in/reijer-koudenburg-369007230
+  project: "RIPLR"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Petr Dobias
+  degree: BSc
+  name_url: https://www.linkedin.com/in/petrdobias
+  project: "OCTOPING.."
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Anna Sanchez Vassopoulou
+  degree: BSc
+  name_url: https://www.linkedin.com/in/anna-sanchez-vassopoulou-00699b2b6
+  project: "More than food: Transforming materials with koji fungus to redefine sustainability in the home"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Ioana Maria Caramiciu
+  degree: MSc
+  name_url: https://www.linkedin.com/in/ioana-maria-caramiciu
+  project: "4D textiles for emotional comfort: Designing interactive tools for everyday well-being"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Jessie Chi
+  degree: MSc
+  name_url: https://www.linkedin.com/in/jessie-chi
+  project: "Tactile breathing: Designing for diaphragmatic engagement in breathing exercises for relaxation"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Pom Smit
+  degree: MSc
+  name_url: https://www.linkedin.com/in/pom-smit
+  project: "Exploring the worlds of socio-ecological innovation: Navigated by design philosophy correspondence"
+  project_url: 
+  year: 2025
+  institution: TU Eindhoven
+
+- name: Hao-Xuan Lu
+  degree: MSc
+  name_url: https://www.linkedin.com/in/alvin-l-1b9195181
+  project: "INTUIPRECISION: Multiple sensory modalities to enhance intuitiveness in precise interaction - examplified by VR modeling"
+  project_url: 
+  year: 2024
+  institution: TU Eindhoven
+
+- name: Lin Vliegenthart
+  degree: MSc
+  name_url: https://www.linkedin.com/in/lin-vliegenthart
+  project: "HelpTrek: Enhancing information literacy among European migrant workers"
+  project_url: 
+  year: 2024
+  institution: TU Eindhoven
+
 - name: Davanshi Bansal
   degree: MSc
   name_url: https://www.linkedin.com/in/devanshi-bansal05
   project: "Guiding framework for automotive HMI developers to make technologies experienceable to users"
-  project_url: 
+  project_url: https://research.tue.nl/en/studentTheses/guiding-framework-for-automotive-hmi-developers-to-make-technolog
   year: 2023
   institution: TU Eindhoven
 
@@ -12,4 +92,28 @@
   project: "The research, design, and development of a city monitor for the municipality of Eindhoven"
   project_url: 
   year: 2023
+  institution: TU Eindhoven
+
+- name: Derck Chu
+  degree: MSc
+  name_url: https://www.linkedin.com/in/derck-h-d-chu-36076a13b
+  project: "ARive: Assisting drivers with in-car augmented reality for risk zone detection"
+  project_url: https://programs.sigchi.org/auto-ui/2023/program/content/120784
+  year: 2023
+  institution: TU Eindhoven
+
+- name: Jeroen Brattinga
+  degree: MSc
+  name_url: https://www.linkedin.com/in/jbrattinga
+  project: "Imagination at work: Alternative way of having conversations in organisational setting"
+  project_url:
+  year: 2024
+  institution: TU Eindhoven
+
+- name: Dylan van Oosterhout
+  degree: MSc
+  name_url: https://www.linkedin.com/in/dylan-van-oosterhout-ba81501a0
+  project: "Exploring how natural patterns facilitated through cymatics can be utilized to create a calming and relaxing atmosphere within the living room context"
+  project_url:
+  year: 2024
   institution: TU Eindhoven

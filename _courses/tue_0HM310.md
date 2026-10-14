@@ -4,7 +4,7 @@ layout: course
 sitemap: false
 name: Introduction to Digital and Analog Electronics
 name_url: https://sites.google.com/aust.edu/coursesitef/spring-2025/eee-2177
-year_start: 2025
+year_start: Spring 2025
 year_end: 
 institution: AUST
 type: bsc

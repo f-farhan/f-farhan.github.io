@@ -1,7 +1,7 @@
-- name: Khan Bahadur Ahsanullah Gold Medal (President Gold Medal)
-  name_url: 
-  organisation: Ahsanullah University of Science and Technology
-  organisation_url: https://aust.edu
+- name: Khan Bahadur Ahsanullah award (highest CGPA among all department in the graduating class)
+  name_url: https://drive.google.com/file/d/1d7rXREhBR_-B8FfkF0okHsoCgak_pEYJ/view
+  organisation: Ahsanullah University of Science & Technology
+  organisation_url: https://www.aust.edu
   year: 2025
 
 - name: Aquisis International Mobility Grant
@@ -21,5 +21,3 @@
   organisation: Ahsanullah University of Science and Technology
   organisation_url: https://aust.edu
   year: 2016-2021
-
-

@@ -1,7 +1,7 @@
 ---
 title: "About"
+description: "Biography, awards and academic background of Faisal Farhan"
 layout: gridlay
-sitemap: false
 permalink: /about/
 ---
 
@@ -11,13 +11,13 @@ permalink: /about/
 {% for member in site.data.pi %}
 
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo-large }}" class="img-responsive avatar-about" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo-large }}" alt="{{ member.name }}" class="img-responsive avatar-about" />
   <h3>{{ member.name }}</h3>
   <i style="font-size:20px">{{ member.info }}</i><br>
 
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-3x"></i></a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
+   <a href="{{ site.url }}{{ site.baseurl }}/cv/"><i class="ai ai-cv-square ai-3x"></i></a> 
   {% if member.orcid %} <a href="{{ member.orcid }}" target="_blank"><i class="ai ai-orcid-square ai-3x"></i></a> {% endif %}
   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
@@ -72,10 +72,9 @@ permalink: /about/
 ## Short biography
 
 <div class="short-bio">
-I am currently working as a Lecturer at [Ahsanullah University of Science & Technology](https://www.aust.edu/), Dhaka, Bangladesh. I completed my [Erasmus Mundus Joint master's Degree in Medical Imaging and Applications (MAIA)](https://maiamaster.udg.edu/) in 2025.
+I am currently working as a Lecturer at Ahsanullah University of Science & Technology, Dhaka, Bangladesh. I completed my Erasmus Mundus Joint master’s Degree in Medical Imaging and Applications (MAIA) in 2025, coordinated by the University of Girona, Spain, along with the Université de Bourgogne, France and the University of Cassino and Southern Lazio, Italy as partner universities. I worked as a Graduate Research Intern at Laboratoire en Imagerie et Vision Artificielle (ImVIA) in Dijon, France where i did my thesis titled “Design and Validation of Multimodal and Lightweight Handheld ST-rPPG Acquisition Systems for Physiological measurements” under the supervision of Prof. Yannick Benezeth.
 
-I received my Bachelor's degree in Electrical and Electronic Engineering from [Ahsanullah University of Science & Technology](https://www.aust.edu/)  , Dhaka, Bangladesh. My B.Sc. thesis was on Pattern Recognition system for the development of Raspberry Pi based speaker recognizer.
-
+I received my Bachelor’s degree in Electrical and Electronic Engineering from Ahsanullah University of Science & Technology , Dhaka, Bangladesh. 
 My current research interest includes Signal Processing, Medical Imaging, Image Processing, Machine Learning & Deep Learning.
 </div>
 
@@ -89,6 +88,17 @@ My current research interest includes Signal Processing, Medical Imaging, Image 
 </div>
 {% endif %}
 
+{% comment %}
+{% if site.data.grants %}
+## Grants
+<div class="rowl1" style="padding-top: 10px;">
+
+{% for grant in site.data.grants %}
+{{ forloop.index }}. {% if grant.name_url %}<a href="{{ grant.name_url }}" target="_blank">{% endif %}<strong>{{ grant.name }}</strong>{% if grant.name_url %}</a>{% endif %} {% if grant.organisation %} from {% if grant.organisation_url %}<a href="{{ grant.organisation_url }}" target="_blank">{% endif %} {{ grant.organisation }}{% if grant.organisation_url %}</a>{% endif %}{% endif %}{% if grant.subtitle %}: {{ grant.subtitle }}{% endif %} ({{ grant.year }}).
+{% endfor %}
+</div>
+{% endif %}
+{% endcomment %}
 
 {% if site.data.collaborators %}
 ## Collaborations
@@ -100,4 +110,26 @@ My current research interest includes Signal Processing, Medical Imaging, Image 
 </div>
 {% endif %}
 
+{% comment %}
+{% if site.data.research_visits %}
+## Research visits
+<div class="rowl1" style="padding-top: 10px;">
 
+{% for research_visit in site.data.research_visits %}
+{{ forloop.index }}. {% if research_visit.institution_url %}<a href="{{ research_visit.institution_url }}" target="_blank">{% endif %}<strong>{{ research_visit.institution }}</strong>{% if research_visit.institution_url %}</a>{% endif %}{% if research_visit.location %} ({{ research_visit.location }}){% endif %}{% if research_visit.period %}, {{ research_visit.period }}{% endif %}.
+{% endfor %}
+</div>
+{% endif %}
+{% endcomment %}
+
+{% comment %}
+{% if site.data.invited_speakers %}
+## Invited speakers at my group
+<div class="rowl1" style="padding-top: 10px;">
+
+{% for invited_speaker in site.data.invited_speakers %}
+{{ forloop.index }}. {% if invited_speaker.name_url %}<a href="{{ invited_speaker.name_url }}" target="_blank">{% endif %}<strong>{{ invited_speaker.name }}</strong>{% if invited_speaker.name_url %}</a>{% endif %} ({{ invited_speaker.field }}, {% if invited_speaker.institution_url %}<a href="{{ invited_speaker.institution_url }}" target="_blank">{% endif %}{{ invited_speaker.institution }}{% if invited_speaker.institution_url %}</a>{% endif %}){% if invited_speaker.venue %} – at {{ invited_speaker.venue }}{% endif %}{% if invited_speaker.date %}, {{ invited_speaker.date }}{% endif %}.
+{% endfor %}
+</div>
+{% endif %}
+{% endcomment %}

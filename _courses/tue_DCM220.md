@@ -4,7 +4,7 @@ layout: course
 sitemap: false
 name: Digital Electronics Lab
 name_url: 
-year_start: 2026
+year_start: Fall 2025
 year_end: 
 institution: AUST
 type: bsc

@@ -1,0 +1,11 @@
+@article{farhan23EEGCR,
+  title={Effect of Input Channel Reduction on {EEG} Seizure Detection},
+  author={Kabir, Md Shaikh Abrar and Farhan, Faisal and Siddiquee, Adnan Amin and Baroi, Oli Lowna and Marium, Taniza and Rahimi, Md. Jakaria},
+  journal={Przegl{\k{a}}d Elektrotechniczny},
+  volume={99},
+  number={12},
+  pages={195--200},
+  year={2023},
+  doi={10.15199/48.2023.12.35},
+  url={https://doi.org/10.15199/48.2023.12.35}
+}

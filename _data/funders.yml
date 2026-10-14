@@ -1,8 +1,8 @@
 - image: aust.png
   url: https://www.aust.edu/
-- image: ec.png
-  url: https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters
 - image: girona.png
   url: https://www.udg.edu/en/
 - image: borg.png
   url: https://www.u-bourgogne.fr/
+- image: unicas.gif
+  url: https://www.unicas.it/welcome-eng

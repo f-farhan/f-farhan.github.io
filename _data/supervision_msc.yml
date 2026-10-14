@@ -1,10 +1,260 @@
-- name: Alexandra van Dijk
-  name_url: https://www.linkedin.com/in/alexandra-van-dijk-7aa5a3233/
-  project: Reducing stress using heart-rate and eye gaze data
-  project_url:
-  year: 2023
+- name: Wessel Verstelle
+  name_url: https://www.linkedin.com/in/wessel-verstelle
+  project: Generative AI approaches to car sound design and analysis
+  year: 2026
   status: inprogress
-  comment: within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Matin Maskitou
+  name_url: https://www.linkedin.com/in/matin-maskitou-6931831b7
+  project: YOLO-based mitigation of distration during driving
+  year: 2026
+  status: inprogress
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+# - name: Max Crutzen
+#   name_url: https://www.linkedin.com/in/max-crutzen-b6369322a
+#   project: TBD
+#   year: 2026
+#   status: inprogress
+#   comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Sharavan Saai Govindaraj
+  name_url: https://www.linkedin.com/in/saai-sharavan
+  project: Predictive vibrotactile motion cueing to reduce carsickness
+  project_url:
+  year: 2026
+  status: inprogress
+  comment: Co-supervision with IE&IS department
+
+- name: Niranjan Swaminathan
+  name_url: https://www.linkedin.com/in/niranjan-swaminathan/
+  project: Context-aware exterior sound design for electric vehicles to improve pedestrian crossing safety
+  project_url:
+  year: 2026
+  status: inprogress
+  comment: Co-supervision with IE&IS department
+
+- name: Christian Janssen
+  name_url: https://www.linkedin.com/in/christian-janssen-783156288
+  project: Dynamic external Human-Machine Interface for pedestrians
+  project_url:
+  year: 2025
+  status: inprogress
+  comment: Co-supervision with IE&IS department
+
+- name: Haoyu Liu
+  name_url: https://www.linkedin.com/in/haoyu-liu-ab22732b8
+  project: Joystick for communication with road users
+  project_url:
+  year: 2025
+  status: completed
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Bakker Nikki, Thom van Os, Stewart Kealan, Uijlenhoet Tom, Zhang Hemai
+  name_url: 
+  project: Improving cyclist comfort around automated vehicles
+  project_url:
+  year: 2025
+  status: completed
+  comment: M1.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Max Crutzen
+  name_url: https://www.linkedin.com/in/max-crutzen-b6369322a
+  project: Configurable furniture
+  year: 2025
+  status: inprogress
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Xinyue Liu
+  name_url: https://www.linkedin.com/in/xinyue-liu-4080692a8
+  project: Ambient visual feedback for SAE level 3/4 automated vehicle
+  year: 2025
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Matin Maskitou
+  name_url: https://www.linkedin.com/in/matin-maskitou-6931831b7
+  project: Reduction of distraction from mobile phone use during driving
+  year: 2025
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Thomas van Heuvelen
+  name_url: https://www.linkedin.com/in/thomas-van-heuvelen-6385271bb
+  project: A predictive safety motorcycle helmet
+  project_url:
+  year: 2025
+  status: completed
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Giovanni Sapienza
+  name_url: https://www.linkedin.com/in/giovanni-sapienza
+  project: Gravel bicycle frame out of carbon and linen 
+  project_url:
+  year: 2025
+  status: completed
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Thomas van Heuvelen
+  name_url: https://www.linkedin.com/in/thomas-van-heuvelen-6385271bb
+  project: "A third eye for motorcycle riders: Researching the requirements for a predictive safety motorcycle helmet."
+  project_url:
+  year: 2025
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Matin Maskitou
+  name_url: https://www.linkedin.com/in/matin-maskitou-6931831b7
+  project: In-vehicle dynamic interface
+  year: 2025
+  status: fail
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Max Crutzen
+  name_url: https://www.linkedin.com/in/max-crutzen-b6369322a
+  project: Vibrotactile sensory replacement
+  year: 2025
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Haoyu Liu
+  name_url: https://www.linkedin.com/in/haoyu-liu-ab22732b8
+  project: Designing multi-modal communication for merge negotiation with automated vehicles
+  project_url: /p/gao2025designing
+  year: 2025
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Xinyue Liu
+  name_url: https://www.linkedin.com/in/xinyue-liu-4080692a8
+  project: Innovating automotive lighting experiences
+  year: 2025
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Sanchayita Kainth
+  name_url: https://www.linkedin.com/in/sanchayitakainth
+  project: Protection from particles for a high-performance machine
+  year: 2025
+  status: completed
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+# - name: Alexandra van Dijk
+#   name_url: https://www.linkedin.com/in/alexandra-van-dijk-7aa5a3233
+#   project: TODO
+#   year: 2025
+#   status: inprogress
+#   comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Alexandra van Dijk
+  name_url: https://www.linkedin.com/in/alexandra-van-dijk-7aa5a3233
+  project: Steer
+  year: 2024
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Xinyue Liu, Yulong Tian, Lisanne Verbeet, Stijn Wuite
+  name_url: 
+  project: Investigating AV-MDV interactions and potential HMI solutions in mixed traffic scenarios
+  project_url:
+  year: 2024
+  status: completed
+  comment: M1.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Matin Maskitou
+  name_url: https://www.linkedin.com/in/matin-maskitou-6931831b7
+  project: In-vehicle interface controlled by YOLO
+  project_url:
+  year: 2024
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Thomas van Heuvelen
+  name_url: https://www.linkedin.com/in/thomas-van-heuvelen-6385271bb
+  project: Accident avoidance for motorcyclists
+  project_url: https://mobility-squad.com/moto-guardian
+  year: 2024
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Xingjian Zeng
+  name_url: https://www.linkedin.com/in/xingjian-zeng-596a29213
+  project: In-vehicle agent that shows emotions
+  project_url: /p/zeng2026enhancing
+  year: 2024
+  status: completed
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Giovanni Sapienza
+  name_url: https://www.linkedin.com/in/giovanni-sapienza/
+  project: Enforcing the 1.5-metre distance between cyclists and drivers
+  project_url: /p/sapienza2025enhancing
+  year: 2024
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Haoyu Liu
+  name_url: https://www.linkedin.com/in/haoyu-liu-ab22732b8
+  project: An inter-vehicle communication interaction enhancing manual driver’s perception to calibrate trust in AVs
+  project_url: https://mobility-squad.com/inter-vehicle
+  year: 2024
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Jom Dieben, Ugnė Aleksandra Morkute
+  name_url: 
+  project: Group trust during automated and manual driving
+  year: 2024
+  status: completed
+  comment: Co-supervision of MSc thesis at the University of Leiden
+
+- name: Xander Fanchamps, Giovanni Sapienza, Thomas van Heuvelen, Matin Maskitou
+  name_url: 
+  project: Increasing situational awareness by enhancing the experience of non-intrusive information flow while engaging in NDRT in level 3+ automated vehicles
+  project_url:
+  year: 2024
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Thomas Marinissen
+  name_url: https://www.linkedin.com/in/thomas-marinissen-4a2155b9
+  project: Control of UI in a car by voice
+  project_url:
+  year: 2024
+  status: completed
+  comment: FMP project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Xingjian Zeng
+  name_url: https://www.linkedin.com/in/xingjian-zeng-596a29213
+  project: In-vehicle animal-inspired agent
+  project_url: /p/zeng2026enhancing
+  year: 2024
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Alexandra van Dijk
+  name_url: https://www.linkedin.com/in/alexandra-van-dijk-7aa5a3233
+  project: Using generative AI for person-based traffic research
+  project_url:
+  year: 2024
+  status: completed
+  comment: M1.2 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+
+- name: Job van Houten
+  name_url: https://www.linkedin.com/in/job-van-houten-a78536226
+  project: Relation between trust and eye gaze behaviour of the driver of an automated vehicle
+  project_url: 
+  year: 2024
+  status: completed
+
+- name: Alexandra van Dijk
+  name_url: https://www.linkedin.com/in/alexandra-van-dijk-7aa5a3233
+  project: Reducing stress using heart-rate and eye gaze data
+  project_url: https://mobility-squad.com/turn
+  year: 2023
+  status: completed
+  comment: M1.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
 
 - name: Tom Bergman, Ariën Helder, Emir Kadrić, Yuanyuan Xu
   name_url: 
@@ -12,28 +262,35 @@
   project_url: https://mobility-squad.com/esa
   year: 2023
   status: completed
-  comment: within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
 
 - name: Peihang Li
-  name_url: https://www.linkedin.com/in/peihang-li-785a45227/
+  name_url: https://www.linkedin.com/in/peihang-li-785a45227
   project: Characterizing situational awareness of transport operators based on eye tracking
   project_url:
-  year: 2023
-  status: inprogress
+  year: 2024
+  status: completed
 
 - name: Thomas Marinissen
   name_url: https://www.linkedin.com/in/thomas-marinissen-4a2155b9
-  project: Multimodal interface for controlling UI in an AV
+  project: Exploring how to teach multimodal interaction in cars to first-time users
   project_url:
   year: 2023
-  status: inprogress
+  status: completed
+  comment: M2.1 project within <a href="https://mobility-squad.com" target="_blank">Future Mobility squad</a>
 
 - name: Yuanzi Wang
-  name_url: https://www.linkedin.com/in/yuanzi-wang-44bab5213/
+  name_url: https://www.linkedin.com/in/yuanzi-wang-44bab5213
   project: "A real road study of automated driving: The influence of the non-critical cue on automation surprise"
   project_url: https://research.tue.nl/en/studentTheses/a-real-road-study-of-automated-driving
   year: 2023
   status: completed
+
+# - name: Student
+#   project: Looking behaviour of pedestrians
+#   project_url:
+#   year: 2022
+#   status: fail
 
 - name: Noureddine Begga
   name_url: https://www.researchgate.net/profile/Noureddine-Begga
@@ -113,14 +370,12 @@
   status: completed
 
 - name: Vishal Onkhar
-  name_url: https://www.tudelft.nl/staff/v.onkhar
   project: Algorithmic detection of eye contact in driver-pedestrian interactions
   project_url: https://repository.tudelft.nl/islandora/object/uuid%3Ab14b48ac-6df0-4a87-bb8d-5763b2697694
   year: 2020
   status: completed
 
 - name: Tom Driessen
-  name_url: https://www.tudelft.nl/staff/t.driessen
   project: "Feeling uncertain: Effects of encoding uncertainty in the tactile communication of a spatiotemporal feature"
   project_url: https://repository.tudelft.nl/islandora/object/uuid%3Aea30f1c8-70d6-493c-948b-3b6e0c398c3a
   year: 2019

@@ -1,20 +1,20 @@
-- name: William Yen
-  name_url: https://www.linkedin.com/in/william-yen-1029bb28a/
-  project: Flexible electronic circuits
-  project_url: 
-  year: 2023
-  status: inprogress
-
-- name: Job van Houten
-  name_url: https://www.linkedin.com/in/job-van-houten-a78536226/
-  project: Relation between trust and eye gaze behaviour of the driver of an automated vehicle
-  project_url: 
-  year: 2023
-  status: inprogress
-
-- name: Lena Siegling
-  name_url: https://www.linkedin.com/in/lena-siegling
-  project: A naturalistic pilot study of cyclists' eye-and head movement using head-mounted eye tracking
-  project_url: 2020naturalistic
-  year: 2020
+- name: JOY CHANDRA PAUL and his team
+  name_url: 
+  project: Solar Powered IOT Integrated Greenhouse Monitoring and Automated Control System
+  year: 2026
   status: completed
+  comment: Final Project of EEE 3100 Fundamentals of Electrical Design course (Fall 2025)
+
+- name: FARHAN BIN TARIK and his team
+  name_url: 
+  project: ESP32-BASED AUTOMATIC PHASE CHANGEOVER SYSTEM WITH UNDER-VOLTAGE DETECTION AND INVERTER BACKUP
+  year: 2026
+  status: completed
+  comment: Final Project of EEE 3100 Fundamentals of Electrical Design course (Fall 2025)
+
+- name: MD.MOSTAFIZUR RAHMAN and his team
+  name_url: 
+  project: INDUSTRIAL ELECTRICAL EQUIPMENT HEALTH MONITORING & FAULT DETECTION SYSTEM
+  year: 2026
+  status: completed
+  comment: Final Project of EEE 3100 Fundamentals of Electrical Design course (Fall 2025)

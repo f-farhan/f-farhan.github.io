@@ -10,10 +10,10 @@ layout: gridlay
 <h1> {{ page.title }} </h1>
 <div class="rowl1">
     <div style="float: left">
-      <img src="{{ site.url }}{{ site.baseurl }}/publications/{{ page.image }}" class="img-responsive" style="border-radius: 5px; width: 280px;" />
+      <img src="{{ site.url }}{{ site.baseurl }}/p/{{ page.image }}" alt="" class="img-responsive" style="border-radius: 5px; width: 280px;" />
       <div style="max-width: 280px">
         {% if pdfpresent == true %}<a href="{{ pdffile }}" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
-        {% if page.doi %}<a href="http://doi.org/{{ page.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
+        {% if page.doi %}<a href="https://doi.org/{{ page.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
         {% if page.arxiv %}<a href="https://arxiv.org/abs/{{ page.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
         {% if page.code %}<a href="{{ page.code }}" target="_blank"><button class="btn-code">CODE</button></a> {% endif %}
         {% if page.suppmat %}<a href="{{ page.suppmat }}" target="_blank"><button class="btn-suppmat">SUPPLEMENT</button></a> {% endif %}
@@ -22,7 +22,7 @@ layout: gridlay
     <h4>{{ page.authors }}</h4>
     <h5><em>{{ page.display }}</em>{% if page.year %} ({{page.year}}){% endif %}</h5>
     {% if page.abstract %}
-      <a class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb; pointer-events: none;" role="button">ABSTRACT</a> {{ page.abstract }}
+      <a class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb; pointer-events: none;" role="button">ABSTRACT</a> {{ page.abstract }} {% if page.tags %}{% for tag in page.tags %}<span class="pub-tag {{ tag | downcase }}">{{ tag }}</span>{% endfor %}{% endif %}
     {% endif %}
 
     {% assign contentwords = page.content | number_of_words %}
@@ -32,8 +32,10 @@ layout: gridlay
     {% endif %}
 
     <div class="well-bib">
-     <iframe src='{{site.url}}{{site.baseurl}}/publications/{{page.pdf}}.txt' scrolling="yes" width="100%" height="210" frameborder="0"></iframe>
+     <button class="btn-copy" type="button">Copy</button>
+     <pre class="bib-text" data-src="{{site.baseurl}}/p/{{page.pdf}}.txt"></pre>
     </div>
+    {% include bibtex.html %}
 
     {% if page.pdf %}
       <object data="{{ pdffile }}#view=FitH" width="100%" height="700" type="application/pdf"></object>

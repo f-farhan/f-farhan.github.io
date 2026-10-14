@@ -1,23 +1,149 @@
+<!-- Set the theme before the page is displayed -->
+<script>
+  (function () {
+    var saved = null;
+
+    try {
+      saved = localStorage.getItem('theme');
+    } catch (error) {
+      // Continue if browser storage is unavailable.
+    }
+
+    var preferred;
+
+    if (saved === 'light' || saved === 'dark') {
+      preferred = saved;
+    } else {
+      preferred = window.matchMedia('(prefers-color-scheme: light)').matches
+        ? 'light'
+        : 'dark';
+    }
+
+    document.documentElement.setAttribute('data-theme', preferred);
+  }());
+</script>
+
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-		<div class="navbar-header">
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-	      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title | escape }}</a>
 
-		</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse-1">
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-	        {% for page in site.nav_pages %}
-	          <li><a href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a></li>
-	        {% endfor %}
-		  </ul>
-		</div>
+    <div class="navbar-header">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar-collapse-1"
+        aria-controls="navbar-collapse-1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a
+        class="navbar-brand"
+        href="{{ '/' | relative_url }}"
+        target="_self"
+      >
+        {{ site.title | escape }}
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <!-- Home -->
+        <li>
+          <a href="{{ '/' | relative_url }}" target="_self">
+            Home
+          </a>
+        </li>
+
+        <!-- Navigation items from _config.yml -->
+        {% for nav_item in site.nav_pages %}
+          {% assign nav_path = nav_item.url | default: nav_item.name %}
+          {% assign first_character = nav_path | slice: 0, 1 %}
+
+          {% unless first_character == '/' %}
+            {% assign nav_path = nav_path | prepend: '/' %}
+          {% endunless %}
+
+          <li>
+            <a
+              href="{{ nav_path | relative_url }}"
+              target="_self"
+            >
+              {% if nav_item.label %}
+                {{ nav_item.label | escape }}
+              {% else %}
+                {{ nav_item.name | capitalize | escape }}
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+
+        <!-- Light/dark theme toggle -->
+        <li>
+          <button
+            id="theme-toggle"
+            type="button"
+            aria-label="Toggle light/dark mode"
+          >
+            <span id="theme-toggle-icon" aria-hidden="true">☾</span>
+
+            <span class="label-stack">
+              <span id="label-dark" class="theme-label">Dark</span>
+              <span id="label-light" class="theme-label">Light</span>
+            </span>
+          </button>
+        </li>
+
+      </ul>
+    </div>
+
   </div>
 </nav>
+
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    var icon = document.getElementById('theme-toggle-icon');
+
+    if (!btn || !icon) {
+      return;
+    }
+
+    function updateButton(theme) {
+      icon.textContent = theme === 'dark' ? '☀' : '☾';
+
+      btn.setAttribute(
+        'aria-label',
+        theme === 'dark'
+          ? 'Switch to light mode'
+          : 'Switch to dark mode'
+      );
+    }
+
+    updateButton(
+      document.documentElement.getAttribute('data-theme') || 'dark'
+    );
+
+    btn.addEventListener('click', function () {
+      var current = document.documentElement.getAttribute('data-theme');
+      var next = current === 'dark' ? 'light' : 'dark';
+
+      document.documentElement.setAttribute('data-theme', next);
+
+      try {
+        localStorage.setItem('theme', next);
+      } catch (error) {
+        // The theme still changes if browser storage is unavailable.
+      }
+
+      updateButton(next);
+    });
+  }());
+</script>

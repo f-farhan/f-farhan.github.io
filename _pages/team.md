@@ -1,13 +1,13 @@
 ---
 title: "Team"
+description: "Research team and open positions for PhD students, postdocs and master students at TU Eindhoven."
 layout: gridlay
-sitemap: false
 permalink: /team/
 ---
 
 # Team
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(get in touch)](mailto:p.bazilinskyy@tue.nl) **!**
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
@@ -16,14 +16,14 @@ permalink: /team/
 {% for member in site.data.pi %}
 
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" class="img-responsive" width="18%" style="float: left" />
+  {% if member.photo-small %}<img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo-small }}" alt="{{ member.name }}" class="img-responsive" width="18%" style="float: left" />{% endif %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i><br>
 
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+  <a href="{{ site.url }}{{ site.baseurl }}/cv/"><i class="ai ai-cv-square ai-2x"></i></a> 
   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
   <ul style="overflow: hidden">
@@ -52,7 +52,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}<img loading="lazy" src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="img-responsive" width="25%" style="float: left" />{% endif %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br></i>
 
@@ -111,6 +111,7 @@ permalink: /team/
 {% endif %}
 
 
+{% if site.data.alumni_members %}
 ## Alumni
 
 {% assign number_printed = 0 %}
@@ -123,7 +124,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}<img loading="lazy" src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="img-responsive" width="25%" style="float: left" />{% endif %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
@@ -143,6 +144,7 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+{% endif %}
 
 
 {% if site.data.alumni_visitors %}
@@ -157,7 +159,4 @@ permalink: /team/
 {% endif %}
 
 
-
-## Administrative Support
-<a href="exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
 

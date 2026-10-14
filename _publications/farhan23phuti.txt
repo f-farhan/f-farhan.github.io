@@ -1,0 +1,11 @@
+@article{farhan23phuti,
+  title={Revival of {Muslin} by {Phuti Karpas} plant identification with convolution neural network},
+  author={Rizvee, Redwan Ahmed and Farrok, Omar and Hasan, Mahamudul and Farhan, Faisal and Islam, Md Hafanul and Hasan, Md Khalid and Rahman, Abidur and Islam, Maheen and Ali, Md Sawkat and Jabid, Taskeed and Rashid, Mohammad Rifat Ahmmad and Islam, Mohammad Manzurul},
+  journal={Array},
+  volume={27},
+  pages={100428},
+  year={2025},
+  publisher={Elsevier},
+  doi={10.1016/j.array.2025.100428},
+  url={https://doi.org/10.1016/j.array.2025.100428}
+}

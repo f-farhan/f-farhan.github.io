@@ -1,3 +1,10 @@
+- name: Ying Fang
+  name_url: https://www.linkedin.com/in/ying-fang-5871b91b4
+  project: STAC-based assessment of Human Machine Interfaces
+  # project_url:
+  year: 2025
+  status: inprogress
+
 - name: Shadab Alam
   name_url: https://www.linkedin.com/in/md-shadab-alam-03b8251aa
   project: Connected data from automated vehicles and road users for traffic safety
@@ -7,28 +14,28 @@
 
 - name: Rutger Verstegen
   name_url: https://www.linkedin.com/in/rutger-verstegen
-  project: Uncertainty in the field of communication with automated vehicles
+  project: Uncertainty in interaction between automated vehicles and other road users 
   # project_url:
   year: 2023
   status: inprogress
 
 - name: Mervyn Franssen
   name_url: https://www.linkedin.com/in/mervynfranssen
-  project: Interaction of humans and automated vehicles
+  project: Interaction of humans and automated vehicles (supervision during 2022–2023)
   # project_url:
   year: 2022
-  status: inprogress
+  status: completed
 
 - name: Haoyu Dong 
   name_url: https://www.linkedin.com/in/haoyudong
-  project: The interaction design between in-car driver/passenger and highly automated vehicle for calibrating trust and enhancing user experience 
+  project: The interaction design between in-car driver/passenger and highly automated vehicle for calibrating trust and enhancing user experience (supervision during 2022–2023)
   # project_url:
   year: 2021
-  status: inprogress
+  status: completed
 
 - name: Roulin Gao
   name_url: https://www.linkedin.com/in/ruolin-gao-731904163
-  project: Data-driven assessment of driving behaviour of young and elderly drivers
+  project: Data-driven assessment of driving behaviour of young and elderly drivers (supervision during 2022–now)
   # project_url:
   year: 2021
   status: inprogress

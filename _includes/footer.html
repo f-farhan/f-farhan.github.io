@@ -1,35 +1,26 @@
 <br/>
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
-			
-            <p>&copy {{ 'now' | date: "%Y" }} {{site.title | escape }} </p>
-
-              <p>{{ site.affiliation }}</p>
-
-		   <p>  </p><p>
-            		  
-		</div>
-
-		<div class="col-sm-4">
-            <p>{{ site.contact }}</p>
-		</div>
-
-
-		<div class="col-sm-4">
-            <p>{{ site.location }}</p>
-		</div>
-
-	  </div>
-	</div>
+<div id="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <p>&copy {{ 'now' | date: "%Y" }} {{ site.title | escape }}</p>
+        <p>{{ site.affiliation }}</p>
+      </div>
+      <div class="col-sm-4">
+        <p>{{ site.contact }}</p>
+      </div>
+      <div class="col-sm-4">
+        <p>{{ site.location }}</p>
+      </div>
+    </div>
   </div>
 </div>
 
+<!-- ### Free time
 <script type="text/javascript">
   // Open links from outside of the website in a new tab
   $(document.links).filter(function() {
     return this.hostname != window.location.hostname;
   }).attr('target', '_blank');
 </script>
+<br/> -->

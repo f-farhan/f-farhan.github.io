@@ -1,0 +1,12 @@
+@article{farhan26strppg,
+  title={Enhanced vascular perfusion mapping and heart rate estimation via spatio-temporal {rPPG} with optical and motion compensation techniques},
+  author={Farhan, Faisal and Benezeth, Yannick},
+  journal={Biomedical Physics \& Engineering Express},
+  volume={12},
+  number={2},
+  pages={025013},
+  year={2026},
+  publisher={IOP Publishing},
+  doi={10.1088/2057-1976/ae1e82},
+  url={https://doi.org/10.1088/2057-1976/ae1e82}
+}
