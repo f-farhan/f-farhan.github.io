@@ -17,8 +17,8 @@ permalink: /about/
 
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-3x"></i></a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-   <a href="{{ '/files/Faisal_Farhan_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View my CV (PDF)">
-   <i class="ai ai-cv-square ai-3x"></i>
+  <a href="{{ '/files/Faisal_Farhan_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View my CV (PDF)">
+  <i class="ai ai-cv-square ai-3x"></i>
    </a>
   {% if member.orcid %} <a href="{{ member.orcid }}" target="_blank"><i class="ai ai-orcid-square ai-3x"></i></a> {% endif %}
   {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
